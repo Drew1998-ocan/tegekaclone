@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Crete+Round:ital@0;1&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,700;0,900;1,500;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,600;1,700;1,900&family=PT+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100&family=Quicksand:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav {
+  padding: 0 19%;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  color: black;
+}
+
+.navlogo {
+  padding: 20px;
+  background-color: #58c974;
+  height: 50px;
+}
+
+ul {
+  position: relative;
+  left: 20px;
+}
+
+.navitem {
+  padding: 0 20px;
+  position: relative;
+  top: 10px;
+}
+
+nav .mynav .mylink ul li a {
+  color: #177e17;
+}
+
+.logo {
+  height: 100px;
+  margin-right: 200px;
+  padding: 0;
+}
+/*# sourceMappingURL=nav.css.map */

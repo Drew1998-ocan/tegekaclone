@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Crete+Round:ital@0;1&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,700;0,900;1,500;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,600;1,700;1,900&family=PT+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+$greenColor: rgb(5, 170, 93);
+
+*{   
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("/images/tk_bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    .bground{
+        opacity: 0.8;
+        position: relative;
+        background-image: radial-gradient(at left,#000000, transparent);
+    }
+}
+nav{
+    padding: 0 19%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    color: black;
+
+}
+.navlogo{
+    padding: 20px;
+    background-color: rgb(88, 201, 116);
+    height: 50px;
+}
+ul{
+    position: relative;
+    left: 20px;
+}
+
+.navitem{
+    padding: 0 20px;
+    position: relative;
+    top: 10px;
+}
+nav .mynav .mylink ul li a{
+    color: rgb(23, 126, 23);
+}
+.logo{
+    height: 100px;
+    margin-right: 200px;
+    padding: 0;
+}
+// secton one 
+#one{
+    padding: 14% 20% 1% 20%;
+    height: 100vh;
+    width: auto;
+    .section-one{
+        width: 500px;
+        h1{
+            font-family: 'Nunito', sans-serif;
+            font-size: 3.5em;
+            font-weight:900;
+            line-height: 4rem;
+        }
+        p{
+            
+            padding: 10px 0 10px 0;
+            color: #fff;
+            font-family: 'Quicksand', sans-serif;
+        }
+        button{
+            outline: none;
+            border-radius: 30px;
+            background-image:
+            radial-gradient(at right, #089c1e, transparent),
+            radial-gradient(at left, #76f0b7, transparent);
+            padding: 15px 30px;
+            width: 200px;
+            margin: 10px 0;
+            &:hover{
+                cursor: pointer;
+                background-color: rgb(39, 4, 4);
+            }   
+        }
+    }
+    .white{
+        color: #f8f6f6;
+    }
+    .green{
+        color: $greenColor;
+    }
+}
+// section two
+#two{
+    padding: 3% 7%;
+    background-color: #fff;
+    width: 100%;
+    .image{
+        border-radius: 15px;
+    }
+    .sectwo{
+        .img-sectwo{
+            overflow: hidden;
+            border-radius: 35px;
+            width: auto;
+            height: auto;
+        }
+        .about{
+            position: relative;
+            top: 290px;
+            h1{
+                font-family: 'Nunito', sans-serif;
+                font-size: 3.5em;
+                font-weight:900;
+                line-height: 4rem;
+                .white{
+                    color: #f8f6f6;
+                }
+                .green{
+                    color:  $greenColor;
+                }
+            }
+            p{
+                font-family: 'Quicksand', sans-serif;
+            }
+        }
+        button{
+            outline: none;
+            border-radius: 30px;
+            background-image:
+            radial-gradient(at right, #089c1e, transparent),
+            radial-gradient(at left, #76f0b7, transparent);
+            padding: 15px 30px;
+            width: 200px;
+            margin: 10px 0;
+            &:hover{
+                cursor: pointer;
+                background-color: rgb(39, 4, 4);
+            }
+        }
+    
+       
+    }
+
+}
+// section three
+#three{
+    background-color: #f8f6f6;
+    padding: 3% 15%;
+    h1{
+        font-family: 'Nunito', sans-serif;
+        font-size: 3.5em;
+        font-weight:900;
+        line-height: 4rem;
+        text-align: center;
+        padding: 10px;
+        .white{
+            color: #000000;
+        }
+        .green{
+            color: $greenColor;
+        }
+        position: relative;
+        animation: mymove 5s infinite;
+    }
+    .p-one{
+        font-family: 'Nunito', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        padding: 10px;
+    }
+    .trust{
+        font-size: 15px;
+        font-weight: 100;
+        font-family: 'Quicksand', sans-serif;
+        width: 600px;
+        height: 250px;
+        box-shadow: 0px 0px 60px #e4e4e4;
+        background-color: #fff;
+        margin: 20px;
+        border-radius: 15px;
+        padding: 50px;
+        &:hover{
+            font-weight: 400;
+            background-color: $greenColor;
+            color: #fff;
+            h6{
+                font-weight: 800;
+                color: #fff;
+            }
+            .awefont{
+                background-color: #fff;
+                color: $greenColor;
+            }
+            box-shadow: 10px 15px 20px #b1dfb7;
+            cursor: pointer;
+        }
+        .awefont{
+            width: 70px;
+            height: 70px;
+            background-color: $greenColor;
+            color: #fff;
+            border-radius: 100%;
+            padding: 10px;
+            margin: 0 5px 0 0;
+        }
+        .awefont-one{
+            position: relative;
+            top: 3em;
+        }
+        .awefont-two{
+            position: relative;
+            top: 3em;
+        }
+        .awefont-three{
+            position: relative;
+            top: 1.5em;
+        }
+        .awefont-four{
+            position: relative;
+            top: 2em;
+        }
+    }
+    .myflex{
+        h6{
+            color: $greenColor;
+        }
+        .fas{
+            padding: 10px;
+        }
+        .text-col{
+            position: relative;
+            left: 4.5em;
+            width:450px;
+            bottom: 3em;
+            margin: 5px;
+        }
+    } 
+}
+
+// SECTION FOUR
+#four{
+    background-color: #fff;
+    padding: 3% 20% 1% 20%;
+    height: 80vh;
+    h1{
+        font-family: 'Nunito', sans-serif;
+        font-size: 4em;
+        font-weight:900;
+        line-height: 4rem;
+        text-align: center;
+        .green{
+            color:  $greenColor;
+        }
+    }
+    img{
+        width: 1200px;
+        height: 600px;
+    }
+}
+#five{
+    background-color: #f8f6f6;
+    padding: 3% 15%;
+    h2{
+        font-family: 'Nunito', sans-serif;
+        font-size: 2em;
+        font-weight:900;
+        line-height: 4rem;
+        text-align: center;
+        padding: 10px;
+        .white{
+            color: #000000;
+        }
+        .green{
+            color: $greenColor;
+        }
+    }
+    .areaThree{
+        padding: 10px;
+    }
+    .areaOne, .areaTwo, .areaThree{
+        margin: 20px;
+        background-color: #fff;
+        width: 410px;
+        height: 280px;
+        padding: 5px;
+        border-radius: 30px;
+        box-shadow: 0px 0px 10px #8f8d8d;
+        ul li{
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+        }
+        h5{
+            font-weight: 600;
+            color: $greenColor;
+            margin: 10px;
+            font-family: 'Nunito', sans-serif;
+            padding: 20px;
+        }
+    }
+    
+}
+
+// SECTION SIX
+
+#six{
+    padding: 3% 19%;
+    background-color: #fff;
+    height: 120%;
+    h1{
+        font-family: 'Nunito', sans-serif;
+        font-size: 3.5em;
+        font-weight:900;
+        line-height: 4rem;
+        text-align: center;
+        padding: 10px;
+        margin-bottom: 20px;
+        .white{
+            color: #000000;
+        }
+        .green{
+            color: $greenColor;
+        }
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .accordion-item{
+
+        width:480px;
+        // height: 100px;
+        margin: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 15px #bebebe;
+        button{
+            color: $greenColor;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 500;
+            font-size: 18px;
+        }
+        .accordion-body p{
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 200;
+            font-size: medium;
+            line-height: 1.5rem;
+
+        }
+    }
+}
+
+// LAST
+#last{
+    .lastSection{
+        position: relative;
+        top: 60px;
+    }
+    h1{
+        font-family: 'Nunito', sans-serif;
+        font-size: 3em;
+        font-weight:900;
+        line-height: 4rem;
+        text-align: left;
+        padding: 10px;
+        .white{
+            color: #000000;
+        }
+        .green{
+            color: $greenColor;
+        }
+    }
+    padding: 3% 19%;
+    background-color: #f8f6f6;
+    .button{
+        position: relative;
+        top: 40px;
+        left: 5px;
+        .buttonOne{
+            &:hover{
+                cursor: pointer;
+                color: #000;
+                background-color: #fff;
+                border: solid;
+                border-width: 1px;
+                border-color: #000;
+            }
+        }
+        button{
+            font-family: 'Nunito', sans-serif;
+            font-weight: 500;
+            margin:10px 60px 10px 10px;
+            width: 160px;
+            height: 50px;
+            .apple{
+                margin: 0 0 0 5px;
+                position: relative;
+                bottom: 5px;
+            }
+            .google{
+                margin: 0 0 0 6px;
+                position: relative;
+                bottom: 6px;
+            }
+        }
+    }
+}
+
+// THE FOOTER
+
+footer{
+    font-family: 'Quicksand', sans-serif;
+    padding: 1% 10%;
+    background-color: rgb(36, 34, 34);
+    color: #f8f6f6;
+    .copy{
+        font-size: 18px;
+        font-weight: 200;
+        font-family: 'Quicksand', sans-serif;
+        
+    }
+    .contact{
+        font-size: 18px;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+    }
+    a{
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        &:hover{
+            color: $greenColor;
+        }
+    }
+    .fab{
+        padding: 0 3%;
+    }
+}
+
+// MEDIA QUERIES-RESPONSIVE 
+
+@media (max-width:600px) {
+    
+    body{
+        background-color: #089c1e;
+    }
+}
+@keyframes mymove {
+    from {bottom: 0px;}
+    to {bottom: 50px;}
+}
+

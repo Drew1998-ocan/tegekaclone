@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Crete+Round:ital@0;1&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,700;0,900;1,500;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,600;1,700;1,900&family=PT+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100&family=Quicksand:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#contact {
+  padding: 3% 7%;
+  background-color: #fff;
+  height: 80vh;
+}
+
+#contact h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 3.5em;
+  font-weight: 900;
+  line-height: 4rem;
+  padding: 10px;
+  color: #000;
+  margin-bottom: 50px;
+}
+
+#contact input {
+  border-width: 0;
+  border-radius: 23px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Quicksand', sans-serif;
+  padding: 15px;
+  background-color: #f8f6f6;
+  width: 790px;
+  margin: 0 0 0 16px;
+}
+
+#contact label {
+  margin: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#contact textarea {
+  border-width: 0;
+  border-radius: 28px;
+  margin: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Quicksand', sans-serif;
+  padding: 15px;
+  height: 300px;
+  background-color: #f8f6f6;
+}
+
+#contact button {
+  float: right;
+  outline: none;
+  border-radius: 30px;
+  background-image: radial-gradient(at right, #089c1e, transparent), radial-gradient(at left, #76f0b7, transparent);
+  padding: 15px 30px;
+  width: 200px;
+  margin: 10px 0;
+}
+
+#contact button:hover {
+  cursor: pointer;
+  background-color: #270404;
+}
+
+#contact p {
+  font-size: 18px;
+  font-weight: 200;
+  font-family: 'Quicksand', sans-serif;
+  padding: 20px 0 0 10px;
+}
+/*# sourceMappingURL=contact.css.map */

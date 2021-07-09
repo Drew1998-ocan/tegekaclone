@@ -1,0 +1,80 @@
+// variables used for the colors in the landing site(insdex.html).
+$greenColor: rgb(5, 170, 93);
+
+// the font family..
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Crete+Round:ital@0;1&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,700;0,900;1,500;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,600;1,700;1,900&family=PT+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+#contact {
+    padding: 3% 7%;
+    background-color: #fff;
+    height: 80vh;
+    h1{
+        font-family: 'Nunito', sans-serif;
+        font-size: 3.5em;
+        font-weight:900;
+        line-height: 4rem;
+        // text-align: center;
+        padding: 10px;
+        color: #000;
+        margin-bottom: 50px;
+     
+    }
+    input{
+        border-width: 0;
+        border-radius: 23px;
+        font-size: 18px;
+        font-weight: 400;
+        font-family: 'Quicksand', sans-serif;
+        padding: 15px;
+        background-color: #f8f6f6;
+        width: 790px;
+        margin: 0 0 0 16px;
+    }
+    label{
+        margin: 10px;
+        font-size: 18px;
+        font-weight: 400;
+        font-family: 'Quicksand', sans-serif;
+    }
+    textarea{
+        border-width: 0;
+        border-radius: 28px;
+        margin: 10px;
+        font-size: 18px;
+        font-weight: 400;
+        font-family: 'Quicksand', sans-serif;
+        padding: 15px;
+        height: 300px;
+        background-color: #f8f6f6;
+
+    }
+
+    button{
+        float: right;
+        outline: none;
+        border-radius: 30px;
+        background-image:
+        radial-gradient(at right, #089c1e, transparent),
+        radial-gradient(at left, #76f0b7, transparent);
+        padding: 15px 30px;
+        width: 200px;
+        margin: 10px 0;
+        &:hover{
+            cursor: pointer;
+            background-color: rgb(39, 4, 4);
+        }
+    }
+    p{
+        font-size: 18px;
+        font-weight: 200;
+        font-family: 'Quicksand', sans-serif;
+        padding: 20px 0 0 10px;
+        
+    }
+}

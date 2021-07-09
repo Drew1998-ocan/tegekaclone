@@ -1,0 +1,512 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Crete+Round:ital@0;1&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,700;0,900;1,500;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,600;1,700;1,900&family=PT+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100&family=Quicksand:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url("/images/tk_bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body .bground {
+  opacity: 0.8;
+  position: relative;
+  background-image: radial-gradient(at left, #000000, transparent);
+}
+
+nav {
+  padding: 0 19%;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  color: black;
+}
+
+.navlogo {
+  padding: 20px;
+  background-color: #58c974;
+  height: 50px;
+}
+
+ul {
+  position: relative;
+  left: 20px;
+}
+
+.navitem {
+  padding: 0 20px;
+  position: relative;
+  top: 10px;
+}
+
+nav .mynav .mylink ul li a {
+  color: #177e17;
+}
+
+.logo {
+  height: 100px;
+  margin-right: 200px;
+  padding: 0;
+}
+
+#one {
+  padding: 14% 20% 1% 20%;
+  height: 100vh;
+  width: auto;
+}
+
+#one .section-one {
+  width: 500px;
+}
+
+#one .section-one h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 3.5em;
+  font-weight: 900;
+  line-height: 4rem;
+}
+
+#one .section-one p {
+  padding: 10px 0 10px 0;
+  color: #fff;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#one .section-one button {
+  outline: none;
+  border-radius: 30px;
+  background-image: radial-gradient(at right, #089c1e, transparent), radial-gradient(at left, #76f0b7, transparent);
+  padding: 15px 30px;
+  width: 200px;
+  margin: 10px 0;
+}
+
+#one .section-one button:hover {
+  cursor: pointer;
+  background-color: #270404;
+}
+
+#one .white {
+  color: #f8f6f6;
+}
+
+#one .green {
+  color: #05aa5d;
+}
+
+#two {
+  padding: 3% 7%;
+  background-color: #fff;
+  width: 100%;
+}
+
+#two .image {
+  border-radius: 15px;
+}
+
+#two .sectwo .img-sectwo {
+  overflow: hidden;
+  border-radius: 35px;
+  width: auto;
+  height: auto;
+}
+
+#two .sectwo .about {
+  position: relative;
+  top: 290px;
+}
+
+#two .sectwo .about h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 3.5em;
+  font-weight: 900;
+  line-height: 4rem;
+}
+
+#two .sectwo .about h1 .white {
+  color: #f8f6f6;
+}
+
+#two .sectwo .about h1 .green {
+  color: #05aa5d;
+}
+
+#two .sectwo .about p {
+  font-family: 'Quicksand', sans-serif;
+}
+
+#two .sectwo button {
+  outline: none;
+  border-radius: 30px;
+  background-image: radial-gradient(at right, #089c1e, transparent), radial-gradient(at left, #76f0b7, transparent);
+  padding: 15px 30px;
+  width: 200px;
+  margin: 10px 0;
+}
+
+#two .sectwo button:hover {
+  cursor: pointer;
+  background-color: #270404;
+}
+
+#three {
+  background-color: #f8f6f6;
+  padding: 3% 15%;
+}
+
+#three h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 3.5em;
+  font-weight: 900;
+  line-height: 4rem;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  -webkit-animation: mymove 5s infinite;
+          animation: mymove 5s infinite;
+}
+
+#three h1 .white {
+  color: #000000;
+}
+
+#three h1 .green {
+  color: #05aa5d;
+}
+
+#three .p-one {
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+}
+
+#three .trust {
+  font-size: 15px;
+  font-weight: 100;
+  font-family: 'Quicksand', sans-serif;
+  width: 600px;
+  height: 250px;
+  -webkit-box-shadow: 0px 0px 60px #e4e4e4;
+          box-shadow: 0px 0px 60px #e4e4e4;
+  background-color: #fff;
+  margin: 20px;
+  border-radius: 15px;
+  padding: 50px;
+}
+
+#three .trust:hover {
+  font-weight: 400;
+  background-color: #05aa5d;
+  color: #fff;
+  -webkit-box-shadow: 10px 15px 20px #b1dfb7;
+          box-shadow: 10px 15px 20px #b1dfb7;
+  cursor: pointer;
+}
+
+#three .trust:hover h6 {
+  font-weight: 800;
+  color: #fff;
+}
+
+#three .trust:hover .awefont {
+  background-color: #fff;
+  color: #05aa5d;
+}
+
+#three .trust .awefont {
+  width: 70px;
+  height: 70px;
+  background-color: #05aa5d;
+  color: #fff;
+  border-radius: 100%;
+  padding: 10px;
+  margin: 0 5px 0 0;
+}
+
+#three .trust .awefont-one {
+  position: relative;
+  top: 3em;
+}
+
+#three .trust .awefont-two {
+  position: relative;
+  top: 3em;
+}
+
+#three .trust .awefont-three {
+  position: relative;
+  top: 1.5em;
+}
+
+#three .trust .awefont-four {
+  position: relative;
+  top: 2em;
+}
+
+#three .myflex h6 {
+  color: #05aa5d;
+}
+
+#three .myflex .fas {
+  padding: 10px;
+}
+
+#three .myflex .text-col {
+  position: relative;
+  left: 4.5em;
+  width: 450px;
+  bottom: 3em;
+  margin: 5px;
+}
+
+#four {
+  background-color: #fff;
+  padding: 3% 20% 1% 20%;
+  height: 80vh;
+}
+
+#four h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 4em;
+  font-weight: 900;
+  line-height: 4rem;
+  text-align: center;
+}
+
+#four h1 .green {
+  color: #05aa5d;
+}
+
+#four img {
+  width: 1200px;
+  height: 600px;
+}
+
+#five {
+  background-color: #f8f6f6;
+  padding: 3% 15%;
+}
+
+#five h2 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 2em;
+  font-weight: 900;
+  line-height: 4rem;
+  text-align: center;
+  padding: 10px;
+}
+
+#five h2 .white {
+  color: #000000;
+}
+
+#five h2 .green {
+  color: #05aa5d;
+}
+
+#five .areaThree {
+  padding: 10px;
+}
+
+#five .areaOne, #five .areaTwo, #five .areaThree {
+  margin: 20px;
+  background-color: #fff;
+  width: 410px;
+  height: 280px;
+  padding: 5px;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 0px 10px #8f8d8d;
+          box-shadow: 0px 0px 10px #8f8d8d;
+}
+
+#five .areaOne ul li, #five .areaTwo ul li, #five .areaThree ul li {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+#five .areaOne h5, #five .areaTwo h5, #five .areaThree h5 {
+  font-weight: 600;
+  color: #05aa5d;
+  margin: 10px;
+  font-family: 'Nunito', sans-serif;
+  padding: 20px;
+}
+
+#six {
+  padding: 3% 19%;
+  background-color: #fff;
+  height: 120%;
+}
+
+#six h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 3.5em;
+  font-weight: 900;
+  line-height: 4rem;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#six h1 .white {
+  color: #000000;
+}
+
+#six h1 .green {
+  color: #05aa5d;
+}
+
+#six .grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+#six .accordion-item {
+  width: 480px;
+  margin: 20px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 15px #bebebe;
+          box-shadow: 0 0 15px #bebebe;
+}
+
+#six .accordion-item button {
+  color: #05aa5d;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+#six .accordion-item .accordion-body p {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 200;
+  font-size: medium;
+  line-height: 1.5rem;
+}
+
+#last {
+  padding: 3% 19%;
+  background-color: #f8f6f6;
+}
+
+#last .lastSection {
+  position: relative;
+  top: 60px;
+}
+
+#last h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 3em;
+  font-weight: 900;
+  line-height: 4rem;
+  text-align: left;
+  padding: 10px;
+}
+
+#last h1 .white {
+  color: #000000;
+}
+
+#last h1 .green {
+  color: #05aa5d;
+}
+
+#last .button {
+  position: relative;
+  top: 40px;
+  left: 5px;
+}
+
+#last .button .buttonOne:hover {
+  cursor: pointer;
+  color: #000;
+  background-color: #fff;
+  border: solid;
+  border-width: 1px;
+  border-color: #000;
+}
+
+#last .button button {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  margin: 10px 60px 10px 10px;
+  width: 160px;
+  height: 50px;
+}
+
+#last .button button .apple {
+  margin: 0 0 0 5px;
+  position: relative;
+  bottom: 5px;
+}
+
+#last .button button .google {
+  margin: 0 0 0 6px;
+  position: relative;
+  bottom: 6px;
+}
+
+footer {
+  font-family: 'Quicksand', sans-serif;
+  padding: 1% 10%;
+  background-color: #242222;
+  color: #f8f6f6;
+}
+
+footer .copy {
+  font-size: 18px;
+  font-weight: 200;
+  font-family: 'Quicksand', sans-serif;
+}
+
+footer .contact {
+  font-size: 18px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+}
+
+footer a {
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+}
+
+footer a:hover {
+  color: #05aa5d;
+}
+
+footer .fab {
+  padding: 0 3%;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: #089c1e;
+  }
+}
+
+@-webkit-keyframes mymove {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 50px;
+  }
+}
+
+@keyframes mymove {
+  from {
+    bottom: 0px;
+  }
+  to {
+    bottom: 50px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

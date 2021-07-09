@@ -1,0 +1,92 @@
+// variables used for the colors in the landing site(insdex.html).
+$greenColor: rgb(5, 170, 93);
+
+// the font family..
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Crete+Round:ital@0;1&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,700;0,900;1,500;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,600;1,700;1,900&family=PT+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+#about{
+    padding: 3% 5%;
+    height: 90vh;
+    background-color: #f8f6f6;
+    h1{
+        font-family: 'Nunito', sans-serif;
+        font-size: 3.0em;
+        font-weight:1000;
+        line-height: 3.5rem;
+        .white{
+            color: #000;
+        }
+        .green{
+            color: $greenColor;
+        }
+    }
+    p{
+        font-size: 18px;
+        font-weight: 400;
+        font-family: 'Quicksand', sans-serif;
+        padding: 20px 0 0 10px;
+        
+    }
+    img{
+        width: 900px;
+        margin: 5px 10px 10px 0;
+        border-radius: 30px;
+    }
+    .col-lg-5{
+        padding: 10px;
+        width: 500px;
+        height: auto;
+        position: relative;
+        top: 50px;
+    }
+}
+#mission-vision{
+    padding: 3% 15%;
+    width: auto;
+    height: 60vh;
+    background-color: #f8f6f6;
+    .myflex{
+        h2{
+            color: $greenColor;
+        }
+        .text-col{
+            position: relative;
+            left: 4em;
+            width:450px;
+            top: 2.0em;
+            margin: 5px;
+        }
+        .trust{
+            p{
+                font-size: 16px;
+            }
+            font-weight: 100;
+            font-family: 'Quicksand', sans-serif;
+            width: 600px;
+            height: 250px;
+            box-shadow: 0px 0px 60px #e4e4e4;
+            background-color: #fff;
+            margin: 20px;
+            border-radius: 15px;
+            padding: 50px;
+            &:hover{
+                font-weight: 400;
+                background-color: $greenColor;
+                color: #fff;
+                h2{
+                    font-weight: 800;
+                    color: #fff;
+                }
+                box-shadow: 10px 15px 20px #b1dfb7;
+                cursor: pointer;
+            }
+
+        }
+    } 
+}
